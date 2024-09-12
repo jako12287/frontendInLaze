@@ -1,0 +1,24 @@
+.conatinerCard {
+  width: 200px;
+  height: 335px;
+  border-radius: 8px;
+  background-color: var(--secondary-color);
+}
+
+.containerImage {
+  height: 200px;
+  aspect-ratio: 9/1;
+}
+.imageBG {
+  height: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.containerData {
+}
+
+.titleCard {
+  color: var(--text-color-main);
+  font-size: 14px;
+  font-weight: 700;
+}

@@ -1,0 +1,28 @@
+.containerMain {
+  display: flex;
+}
+
+.containerFilters {
+  width: 250px;
+  background-color: var(--secondary-color);
+  padding: 40px 10px 40px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.containerCards {
+  background: linear-gradient(
+    to top,
+    transparent,
+    var(--background-color-1),
+    var(--background-color-2)
+  );
+  padding: 40px 20px 40px 20px;
+}
+
+.titleSection {
+  display: flex;
+  font-size: 24px;
+  color: var(--text-color-main);
+}

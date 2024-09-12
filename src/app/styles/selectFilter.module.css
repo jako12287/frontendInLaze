@@ -1,0 +1,31 @@
+.textLabel{
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--text-color-main);
+    margin-bottom: 20px;
+}
+
+.inputField{
+    width: 100%;
+    height: 46px;
+    padding: 10px;
+   
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    background-color: var(--third-color);
+    color: var(--text-color-main);
+}
+
+.containerInput{
+    display: flex;
+    border-bottom: 1px solid var(--fourth-color);
+    align-items: center;
+    padding-right: 10px;
+    background-color: var(--third-color);
+
+}
+
+.iconSearch{
+    width: 12px;
+    height: 7.4px;
+}

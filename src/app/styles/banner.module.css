@@ -1,0 +1,59 @@
+.containerBanner {
+  height: 436px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.imageBanner {
+  width: 100%;
+  height: 432px;
+}
+
+.shadowDown {
+  height: 200px;
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    var(--primary-color),
+    var(--primary-color)
+  );
+}
+
+.containerInfo {
+  position: absolute;
+  bottom: 0px;
+  color: var(--text-color-main);
+  z-index: 1;
+  height: 200px;
+  display: flex;
+  padding: 0 40px 0 40px;
+}
+
+.textContainer {
+  flex: 2;
+  align-content: center;
+}
+
+.iconContainer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 50px;
+}
+
+.iconHeart {
+  width: 25px;
+  height: 25px;
+}
+.textTitle {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.textDescripcion {
+  font-size: 20px;
+}

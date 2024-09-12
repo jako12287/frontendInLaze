@@ -1,9 +1,14 @@
+import Main from "./movies/page";
 import RootLayout from "./layout";
+import Header from "@/ui/components/Header";
+import Banner from "@/ui/components/Banner";
 
 export default function Home(): JSX.Element {
   return (
     <RootLayout>
-      <h1>Welcome to the Inlaze Next.js Starter!</h1>
+      <Header />
+      <Banner/>
+      <Main />
     </RootLayout>
   );
 }
